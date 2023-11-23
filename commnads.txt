@@ -1,0 +1,30 @@
+get compiers installed in linux-ubuntu:-
+dpkg --list | grep compiler
+
+WSLlinux password:-
+mukesh
+
+RUST installtion:-
+https://harsimranmaan.medium.com/install-and-setup-rust-development-environment-on-wsl2-dccb4bf63700
+
+sudo apt install build-essential # Install pre-reqs
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+you get below popup
+
+Rust is installed now. Great!
+
+To get started you may need to restart your current shell.
+This would reload your PATH environment variable to include
+Cargo's bin directory ($HOME/.cargo/bin).
+
+source $HOME/.cargo/env 
+rustc --version
+
+Install rust-analyzer vscode extension
+
+git configuration
+git config --global user.name Mukesh376
+git config --global user.email pallamukesh@gmail.com
+git remote set-url origin https://github.com/Mukesh376/Muticourse.git
+git remote -v
